@@ -10,7 +10,8 @@ This documentation is for the UI Library that Ballistic uses.
 Let's first add the library using the feature named Loadstring 
 
 ```lua
-loadstring(game:HttpGet("https://github.com/BallisticDevelopment/Roblox/blob/main/library.lua"), true)()
+local Library = loadstring(game:HttpGet('https://raw.githubusercontent.com/Rain-Design/Libraries/main/Shaman/Library.lua'))()
+local Flags = Library.Flags
 ```
 
 ## Creating a Window
